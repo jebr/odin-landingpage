@@ -1,5 +1,47 @@
 * {
-    font-family: Verdana, sans-serif;
+    font-family: "Roboto Light", sans-serif;
     box-sizing: border-box;
+    /*padding: 0;*/
+    margin: 0;
 }
+
+.section-1, .section-2 {
+    background-color: #1F2937;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 70px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+.header ul {
+    flex: 1;
+}
+
+.header li{
+    list-style: none;
+    display: inline;
+    padding: 0 1rem;
+    color: #E5E7EB
+}
+
+.header li a{
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+.header li a:hover{
+    color: #3882F6;
+}
+
 
