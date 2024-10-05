@@ -9,6 +9,10 @@
     background-color: #1F2937;
 }
 
+.section-3 {
+    background-color: white;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -22,6 +26,8 @@
 .header h1 {
     flex: 1;
     padding: 0 2rem;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .header ul {
@@ -43,5 +49,77 @@
 .header li a:hover{
     color: #3882F6;
 }
+
+.jumbo {
+    display: flex;
+    color: white;
+    height: 400px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.jumbo-left {
+    flex: 1;
+}
+
+.jumbo-right {
+    flex: 1;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.jumbo h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    padding: 0 2rem;
+    margin-top: 100px;
+}
+
+.jumbo p {
+    padding: 0 2rem;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.jumbo button {
+    padding: 0 2rem;
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.jumbo-img {
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    margin-top: 100px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /*color: white;*/
+    /*height: 400px;*/
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.main h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
 
 
