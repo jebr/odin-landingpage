@@ -13,6 +13,10 @@
     background-color: white;
 }
 
+.section-4 {
+    background-color: #E5EFF1;
+}
+
 .wrapper {
     max-width: 1400px;
 }
@@ -98,7 +102,6 @@
     margin-top: 20px;
 }
 
-
 .jumbo-img {
     background-color: gray;
     height: 200px;
@@ -116,7 +119,6 @@
     flex-direction: column;
     /*color: white;*/
     /*height: 400px;*/
-    max-width: 1110px;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -127,7 +129,6 @@
     color: #1F2937;
     font-weight: 900;
 }
-
 
 .container-images {
     display: flex;
@@ -158,6 +159,23 @@
     text-align: center;
 }
 
+/* QUOTE */
+.quote {
+    display: flex;
+    height: 500px;
+    margin: 0 auto;
+}
 
+#quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
 
-
+#author {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+}
