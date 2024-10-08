@@ -9,7 +9,7 @@
     background-color: #1F2937;
 }
 
-.section-3 {
+.section-3, .section-5 {
     background-color: white;
 }
 
@@ -179,4 +179,52 @@
     color: #1F2937;
     font-weight: bold;
     flex-grow: 1;
+}
+
+
+.action {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    max-width: 800px;
+    margin: 75px auto 0;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.action h1 {
+    color: #fff;
+    padding-left: 5rem;
+    font-size: 22px;
+}
+
+.action p {
+    color: #fff;
+    padding: 0 5rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 16px;
+}
+
+.action button {
+    color: #fff;
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+
 }
